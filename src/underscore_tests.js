@@ -120,7 +120,7 @@ var _ = { };
       var newArr = [];
       for (var i = 0; i < array.length; i++) {
           if (array[i].hasOwnProperty(propertyName)) {
-              newArr.push(array[i].propertyName);
+              newArr.push(array[i][propertyName]);
             }
         }
       return newArr;
